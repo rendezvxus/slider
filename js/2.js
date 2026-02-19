@@ -1,4 +1,4 @@
-new Swiper('.image-slider',{
+new Swiper('.swiper',{
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev'
@@ -16,14 +16,14 @@ new Swiper('.image-slider',{
     
     mousewheel: {
         sensitivity: 1,
-        eventsTarget: ".image-slider",
+        eventsTarget: ".swiper",
     },
 
     thumbs: {
         swiper: {
             el: '.thumbs-slider',
             slidesPerView: 4,
-            spaceBetween: 30,
+            spaceBetween: 10,
         }
     },
 });
