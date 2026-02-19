@@ -1,14 +1,30 @@
 .body {
-    justify-content: center;
+    background-color: blue;
 }
 
 .wrapper {
-    height: 350px;
+    position: relative;
+    border-color: black;
+}
+
+.swiper {
     width: 100%;
+    height: 200px;
     border-radius: 20px;
+    border: 1px solid #afafaf;
+    border-style: solid;
 }
-.image-slider {
+
+.swiper-wrapper {
 }
-.image-slider__image {
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.swiper-slide img {
 }

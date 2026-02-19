@@ -1,4 +1,4 @@
-new Swiper('.image-slider',{
+new Swiper('.swiper',{
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev'
@@ -13,9 +13,4 @@ new Swiper('.image-slider',{
         enabled: true,
         onlyInViewport: true,
     },
-    
-    mousewheel: {
-        sensitivity: 1,
-        eventsTarget: ".image-slider",
-    }
 });
