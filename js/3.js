@@ -18,5 +18,7 @@ new Swiper('.image-slider',{
 
     fadeEffect: {
         crossFade: true,
-    }
+    },
+
+    centeredSlides: true,
 });

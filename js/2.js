@@ -21,9 +21,9 @@ new Swiper('.image-slider',{
 
     thumbs: {
         swiper: {
-            el: '.image-mini-slider',
+            el: '.thumbs-slider',
             slidesPerView: 4,
             spaceBetween: 30,
         }
-    }
+    },
 });
