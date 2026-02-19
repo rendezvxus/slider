@@ -1,4 +1,4 @@
-  new Swiper('.image-slider',{
+new Swiper('.image-slider',{
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev'
@@ -22,7 +22,8 @@
     thumbs: {
         swiper: {
             el: '.image-mini-slider',
-            slidesPerView: 4
+            slidesPerView: 4,
+            spaceBetween: 30,
         }
     }
 });
