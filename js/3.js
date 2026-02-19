@@ -1,3 +1,5 @@
+const { useEffect } = require("react");
+
 new Swiper('.image-slider',{
     navigation: {
         nextEl: '.swiper-button-next',
@@ -14,8 +16,9 @@ new Swiper('.image-slider',{
         onlyInViewport: true,
     },
     
-    mousewheel: {
-        sensitivity: 1,
-        eventsTarget: ".image-slider",
-    }
+    effect: "fade",
+
+    fadeEffect: {
+        crossFade: true,
+    },
 });
